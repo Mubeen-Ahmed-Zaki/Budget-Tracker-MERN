@@ -22,6 +22,13 @@ app.use(
 //! database connect
 connectDB();
 
+//! Root Route
+app.get("/", (req, res) => {
+  res.status(200).json({
+    message: "API is running successfully"
+  });
+});
+
 // !middleware
 app.use("/api/auth", authRoute);
 app.use("/api/transactions", transactionRoute);
