@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://budget-tracker-mern-phi.vercel.app"],
+    origin: ["http://localhost:5173", "https://budget-tracker-mern-s74h.vercel.app"],
     credentials: true,
   })
 );
