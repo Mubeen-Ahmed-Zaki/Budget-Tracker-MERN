@@ -23,7 +23,7 @@ app.use(
 connectDB();
 
 //! Root Route
-app.get("/", (req, res) => {
+app.get("/well", (req, res) => {
   res.status(200).json({
     message: "API is running successfully"
   });
