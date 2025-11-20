@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "https://budget-tracker-mern-phi.vercel.app",
+  baseURL: "https://budget-tracker-mern-phi.vercel.app/api",
   withCredentials: true,
 });
 
