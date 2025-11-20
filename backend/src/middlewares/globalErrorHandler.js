@@ -1,5 +1,5 @@
 export const notFound = (req, res, next) => {
-    let error = new Error(`cannot find the route ${originalUrl} on this server.`)
+    let error = new Error(`cannot find the route ${req.originalUrl} on this server.`)
     error.status = 404;
     next(error);
 }

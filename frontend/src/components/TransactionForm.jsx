@@ -111,7 +111,7 @@ const TransactionForm = () => {
 
               <button
                 type="submit"
-                className="w-full bg-linear-to-r from-blue-600 to-purple-600 text-white py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all transform hover:scale-105 hover:cursor-pointer shadow-md"
+                className="btn btn-primary w-full text-amber-50 transition-all transform hover:scale-105 hover:cursor-pointer shadow-md"
               >
                 Add Transaction
               </button>
